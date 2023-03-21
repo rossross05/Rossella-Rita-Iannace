@@ -89,6 +89,9 @@ p {
 .container {
   flex: 1;
 }
+.project-description {
+  padding: 120px 60px;
+}
 @media (max-width: 576px) {
   h2 {
     font-size: 32px;
@@ -105,5 +108,25 @@ p {
   h1 {
     font-size: 48px;
     line-height: 1.5;
+  }
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    color: black;
   }
 }
