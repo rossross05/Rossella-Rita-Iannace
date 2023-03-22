@@ -16,10 +16,11 @@ h3 {
 
 h1 {
   font-size: 76px;
+  line-height: 1.5;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 64px;
 }
 
 h3 {
@@ -28,8 +29,9 @@ h3 {
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
 }
 
 .navigation-links {
@@ -92,41 +94,20 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width: 576px) {
-  h2 {
-    font-size: 32px;
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-}
+
 @media (max-width: 900px) {
   h1 {
-    font-size: 18px;
+    font-size: 60px;
     text-align: center;
   }
-
+  h2 {
+    font-size: 44px;
+  }
   .project-desciption {
     padding: 0;
     text-align: center;
   }
   .footer {
     display: none;
-  }
-}
-
-@media (min-width: 900px) {
-  h1 {
-    color: black;
   }
 }
